@@ -1,0 +1,41 @@
+{
+  "name": "commitcounter",
+  "version": "1.0.0",
+  "description": "An API that generates commit count stats from Bitbucket and GitLab in SVG badge format.",
+  "keywords": [
+    "commitcounter",
+    "bitbucket",
+    "gitlab",
+    "commits",
+    "typescript",
+    "api",
+    "badge"
+  ],
+  "author": "Matheus Julidori",
+  "license": "MIT",
+  "homepage": "https://github.com/MatheusJulidori/commitstats-api#readme",
+  "bugs": {
+    "url": "https://github.com/MatheusJulidori/commitstats-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusJulidori/commitstats-api.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
