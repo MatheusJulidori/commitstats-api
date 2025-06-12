@@ -24,9 +24,10 @@ npm run dev
 
 - TypeScript
 - Node.js
-- Bitbucket & GitLab REST APIs
-- Dynamic SVG rendering
-- GraphQL
+- Express.js (REST API)
+- xmlbuilder2 (dynamic SVG)
+- Dotenv (API token/config loader)
+- Axios (API calls to GitLab & Bitbucket)
 
 ## 🤝 Contributing
 
